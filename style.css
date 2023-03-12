@@ -1,0 +1,83 @@
+.form{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-top: 50px; 
+    text-align: center;
+    background-color:sandybrown;
+}
+.form_container
+{
+    background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    margin: 5% auto 10% auto;
+    width: 30%;
+    border-radius: 10%;
+    justify-content: center;
+}
+.form_container input
+{
+    width:240px;
+    height: 35px;
+    background:transparent;
+    border-bottom:1px solid sandybrown;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    color:white;
+    font-size:15px;
+    letter-spacing:1px;
+    margin-top:25px;
+    font-family:sans-serif;
+    text-align: center;
+}
+.form_container input:focus
+{
+    outline:none;
+}
+.form_container select
+{
+    width:240px;
+    height: 35px;
+    background:transparent;
+    border-bottom:1px solid sandybrown;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    color:white;
+    font-size:15px;
+    letter-spacing:1px;
+    margin-top:25px;
+    font-family:sans-serif;
+    text-align: center;
+}
+::placeholder{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.btn{
+    width:240px;
+    height:40px;
+    background:sandybrown;
+    border:none;
+    margin-top:30px;
+    margin-bottom: 30px;
+    border-radius:10px;
+    cursor:pointer;
+    color:white;
+    transition:0.4s;
+}
+.btn:hover
+{
+    background:black;
+    color:sandybrown;
+    font-weight:bold;
+}
+.btn a{
+    text-decoration:none;
+    color: black;
+    font-weight:bold;
+}
