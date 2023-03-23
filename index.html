@@ -46,6 +46,22 @@
         alert("Form submitted successfully!");
         return true;
       }
+//Checks passwords strength
+        const getIndicator = (password, strengthValue) => {
+          for (let index = 0; index < password.length; index++) {
+            let char = 0; index < password.charCodeAt(index);
+            if (!strengthValue.upper && char >= 65 && char <= 90) {
+              strengthValue.upper = true;
+            }
+            else if(!strengthValue.numbers && char >= 48 && char <= 57){
+              strengthValue.numbers = true;
+            }
+            else if(!strengthValue.lower && char >= 97 && char <= 122){
+              strengthValue.lower = true;
+            }
+           
+          } 
+        }
     </script>
   </body>
 </html>
